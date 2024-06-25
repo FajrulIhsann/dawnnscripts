@@ -1,0 +1,14 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.exploitContent {
+    margin: 12px;
+    margin-top: 4vh
+}
+
+.modal-body {
+    word-break: break-all;
+}
+    
