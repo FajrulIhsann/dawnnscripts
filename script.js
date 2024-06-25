@@ -1,9 +1,11 @@
 let redzsc = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()'
 let gtgsc = 'loadstring(game:HttpGet("https://isnahamzahpastebin.tech/gantenghubv1_new"))()'
 
-function modalparam(script){
+function modalparam(script,scriptTitle){
+    let judulScript = document.getElementById('exampleModalLabel')
     let isiScript = document.getElementById('REDzHUB')
     isiScript.textContent = (script)
+    judulScript.textContent = (scriptTitle)
 }
 
 

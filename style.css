@@ -11,4 +11,8 @@ body {
 .modal-body {
     word-break: break-all;
 }
-    
+
+.SCicon {
+    width: 18rem;
+    height: 25vh;
+}
