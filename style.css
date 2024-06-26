@@ -5,14 +5,13 @@ body {
 
 .exploitContent {
     margin: 12px;
-    margin-top: 4vh
+    margin-top: 8vh
+}
+
+.scriptContent{
+    background-color: black;
 }
 
 .modal-body {
     word-break: break-all;
-}
-
-.SCicon {
-    width: 18rem;
-    height: 25vh;
 }
