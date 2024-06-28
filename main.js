@@ -1,11 +1,10 @@
-let redzsc = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()'
-let gantengsc = 'loadstring(game:HttpGet("https://isnahamzahpastebin.tech/gantenghubv1_new"))()'
 
 function modalparam(script,scriptTitle){
-    let judulScript = document.getElementById('exampleModalLabel')
-    let isiScript = document.getElementById('REDzHUB')
+    let judulScript = document.getElementById('modalTitle')
+    let isiScript = document.getElementById('scriptText')
     isiScript.textContent = (script)
     judulScript.textContent = (scriptTitle)
+    
 }
 
 // showCopyNotification
@@ -21,11 +20,11 @@ function showSnackBar() {
 
 // Copy function start
 function Copy() {
-    let valueIsiScript = document.getElementById('REDzHUB').textContent
+    let valueIsiScript = document.getElementById('scriptText').textContent
 // Copy the text inside the text field
 navigator.clipboard.writeText(valueIsiScript);
+
 showSnackBar()
 }
 
 // Copy function end
-

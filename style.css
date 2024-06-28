@@ -38,6 +38,14 @@ body {
     -webkit-animation: fadein 0.5s, fadeout 0.5s 1.5s;
     animation: fadein 0.5s, fadeout 0.5s 1.5s;
   }
+
+  .nav-link {
+    color: #ddd;
+  }
+
+  .nav-link:hover{
+    color: white;
+  }
   
   /* Animations for fading in and out */
   @-webkit-keyframes fadein {

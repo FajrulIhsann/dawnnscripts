@@ -10,13 +10,13 @@
 <body>
   <nav class="navbar navbar-expand-lg bg-dark bg-opacity-75 ">
     <div class="container-fluid">
-      <a class="navbar-brand text-white" href="index.html">DawnnSC</a>
+      <a class="navbar-brand text-white " href="index.html">DawnnSC</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-link text-white" href="scriptlist.html" id="scriptsite">Script Bloxfruit</a>
+          <a class="nav-link" href="scriptlist.html" id="scriptsite">Script Bloxfruit</a>
         </div>
       </div>
     </div>
@@ -27,22 +27,22 @@
           <!-- REDzHUB Script  -->
           <div class="col-12 col-md-6 col-lg-4">
             <div class="card" style="width: 18rem;">
-              <img src="assets/Redzhubrev.png" class="card-img-top, SCicon " alt="REDzHUB">
+              <img src="assets/scriptReview/Redzhubrev.png" class="card-img-top, SCicon " alt="REDzHUB">
               <div class="card-body">
                 <h5 class="card-title">Redz Hub</h5>
                 <p class="card-text">Script paling mantap buat grinding</p>
-                <a data-bs-toggle="modal" data-bs-target="#redzModal" class="btn btn-dark" onclick="modalparam(redzsc, 'Redz Hub')">Copy Script</a>
+                <a data-bs-toggle="modal" data-bs-target="#redzModal" class="btn btn-dark" onclick="modalparam(redzScript, 'Redz Hub')">Copy Script</a>
               </div>
            </div>
           </div>
           <!-- Ganteng Hub Script  -->
           <div class="col-12 col-md-6 col-lg-4">
              <div class="card" style="width: 18rem;">
-            <img src="assets/Gantenghubrev.png" class="card-img-top, SCicon" alt="GantengHub">
+            <img src="assets/scriptReview/Gantenghubrev.png" class="card-img-top, SCicon" alt="GantengHub">
             <div class="card-body">
               <h5 class="card-title">Ganteng Hub</h5>
               <p class="card-text">Script karya anak bangsa</p>
-              <a data-bs-toggle="modal" data-bs-target="#redzModal" class="btn btn-dark" onclick="modalparam(gantengsc, 'Ganteng Hub')">Copy Script</a>
+              <a data-bs-toggle="modal" data-bs-target="#redzModal" class="btn btn-dark" onclick="modalparam(gantengScript, 'Ganteng Hub')">Copy Script</a>
             </div>
            </div>
           </div>
@@ -68,11 +68,11 @@
     <div class="modal-dialog z-4">
       <div class="modal-content  ">
         <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+          <h1 class="modal-title fs-5" id="modalTitle"></h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body text-wrap">
-            <div id="REDzHUB">
+            <div id="scriptText">
                  ...
             </div>
            
@@ -89,6 +89,7 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+    <script src="main.js"></script>
+    <script src="scriptlist.js"></script>
 </body>
 </html>
