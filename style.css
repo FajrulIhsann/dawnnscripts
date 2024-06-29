@@ -67,3 +67,32 @@ body {
     from {top: 30px; opacity: 1;}
     to {top: 0; opacity: 0;}
   }
+
+
+  .overlay-container {
+    width: 286px;
+    height: 158.875px;
+    
+  }
+
+  .overlay {
+    display: flex;
+    width: 286px;
+    height: 158.875px;  
+    background-color: rgba(0, 0, 0, 0.74);
+    justify-content: center;
+    align-items: center;
+    color: white;
+    opacity: 0%;
+    z-index: 1;
+    position: absolute;
+    cursor: pointer;
+  }
+
+  .overlay:hover {
+    opacity: 100%;
+  }
+
+  .SCicon {
+    position: absolute;
+  }
