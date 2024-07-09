@@ -1,21 +1,25 @@
 body {
     padding: 0;
     margin: 0;
+    background-color: var(--bgColor-primary);
 }
 
 :root {
   --bgColor-primary : #111111;
+  --bgColor-secondary: #4d4d4d;
+  --bgColor-tertiary : #1e1e1e;
   --text-primary: #fff;
-  --bgColor-secondary: #3c3c3c;
+  --text-secondary: #000000;
 }
 
-.header {
+.home-header {
   display: flex;
   position: relative;
   z-index: 3;
   width: 100%;
   background: none;
   height: 7%;
+  justify-content: space-evenly;
 }
 
 .header-brand {
@@ -27,6 +31,18 @@ body {
   padding-top: 1rem;
   font-family: "Quicksand",sans-serif;
   text-decoration: none;
+}
+
+#home-clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-primary);
+  background-color: #00000042;
+  width: 10rem;
+  font-family: "Bebas Neue",sans-serif;
+  font-size: 1.3em;
+  border-radius: 10px;
 }
 
 .home-container {
@@ -67,6 +83,7 @@ body {
   font-size: 1.2em;
   font-family: "Red Hat Display", sans-serif;
 }
+
 
 .second-content {
   display: flex;
@@ -143,7 +160,7 @@ body {
 }
 
 .footer-link:hover {
-  background-color: var(--bgColor-secondary);
+  background-color: #00000063;
   transition: ease-in 0.3s;
 }
 
@@ -196,41 +213,21 @@ body {
   }
 
   .navbar {
-    background-color: var(--bgColor-primary);
+    background-color: var(--bgColor-tertiary);
   }
 
   .modal-toggle {
-    background-color: var(--bgColor-secondary);
+    background-color: var(--bgColor-tertiary);
     color: var(--text-primary);
   }
 
   .modal-toggle:hover{
-    background-color: var(--bgColor-secondary);
+    background-color: var(--bgColor-primary);
     color: var(--text-primary);
   }
 
-  /* Animations for fading in and out */
-  @-webkit-keyframes fadein {
-    from {top: 0; opacity: 0;}
-    to {top: 30px; opacity: 1;}
-  }
   
-  @keyframes fadein {
-    from {top: 0; opacity: 0;}
-    to {top: 30px; opacity: 1;}
-  }
   
-  @-webkit-keyframes fadeout {
-    from {top: 30px; opacity: 1;}
-    to {top: 0; opacity: 0;}
-  }
-  
-  @keyframes fadeout {
-    from {top: 30px; opacity: 1;}
-    to {top: 0; opacity: 0;}
-  }
-
-
   .overlay-container {
     width: 286px;
     height: 158.875px;
@@ -256,6 +253,13 @@ body {
     transition: ease-in .15s;
   }
 
+  .card {
+    background-color: #272727;
+    color: #ffffff;
+    border: 2px var(--bgColor-primary) solid;
+  }
+
+
   .SCicon {
     position: absolute;
   }
@@ -273,7 +277,6 @@ body {
 
     .preview-desc{
       font-size: 1.3rem;
-      border: 1px solid;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -283,7 +286,7 @@ body {
       text-align: center;
       font-size: 70%;
     }
-
+    
     .home-title {
       margin-bottom: 9rem ;
     }
@@ -292,3 +295,23 @@ body {
       padding-left: 6vh;
     }
   }
+    /* Animations for fading in and out */
+    @-webkit-keyframes fadein {
+      from {top: 0; opacity: 0;}
+      to {top: 30px; opacity: 1;}
+    }
+    
+    @keyframes fadein {
+      from {top: 0; opacity: 0;}
+      to {top: 30px; opacity: 1;}
+    }
+    
+    @-webkit-keyframes fadeout {
+      from {top: 30px; opacity: 1;}
+      to {top: 0; opacity: 0;}
+    }
+    
+    @keyframes fadeout {
+      from {top: 30px; opacity: 1;}
+      to {top: 0; opacity: 0;}
+    }
