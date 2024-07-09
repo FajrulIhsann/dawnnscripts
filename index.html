@@ -7,27 +7,59 @@
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
   <title>Dawnn Scripts</title>
 </head>
+
 <body>
   <div class="home-container">
+    <div class="darker"></div>
+    <div class="header">
+      <a href="index.html" class="header-brand">Dawnnscripts</a>
+    </div>
     <div class="home-content">
       <span class="home-title animate__animated animate__pulse animate__infinite infinite">
-        Welcome to my website!
+        Selamat Datang!
       </span>
       <span class="home-desc">
         Di sini kamu bisa mengcopy script untuk grinding bloxfruits
       </span>
     </div>
-    <div class="nav">
-      <a class="nav-links" href="script-bloxfruits.html">
-        List Script Bloxfruits
-      </a>
-    </div>
-  </div>
 
+    <div class="second-content">
+      <div class="preview-img-content">
+        <span class="preview-title">Preview Script :</span>
+        <span class="img-container animate__animated">
+          <img id="1" class="preview-img animate__animated " data-aos="fade-right"
+            src="./assets/scriptReview/Redzhubrev.png" alt="Script Preview">
+          <img class="preview-img animate__animated" data-aos="fade-left" src="./assets/scriptReview/Gantenghubrev.png"
+            alt="Script Preview">
+          <img class="preview-img animate__animated" data-aos="zoom-in" src="./assets/scriptReview/Vectorhubrev.png"
+            alt="Script Preview">
+        </span>
+      </div>
+      <div class="preview-desc animate__animated" data-aos="fade-right" data-aos-duration="1200">
+        Jalankan script dengan menggunakan executor. Dengan menggunakan script ini kamu bisa menaikkan level, mastery, mendapatkan item langka, dan sebagainya. Kamu tidak lagi membuang banyak waktu hanya untuk grinding level saja di dalam game Bloxfruits. 
+      </div>
+    </div>
+
+    <div class="footer">
+      <a href="script-bloxfruits.html" class="footer-link">List Script Bloxfruits</a>
+    </div>
+
+  </div>
+  <script src="main.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
