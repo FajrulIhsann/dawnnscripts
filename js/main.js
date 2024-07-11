@@ -33,7 +33,18 @@ function Copy() {
 function waktu() {
     let clock = document.getElementById('home-clock');
     const time = new Date()
-    clock.innerHTML = `${time.getHours()} : ${time.getMinutes()} : ${time.getSeconds()}`
+    
+    let detik = time.getSeconds()
+    let menit = time.getMinutes()
+
+    if(time.getSeconds() < 10){
+        detik = '0'+ time.getSeconds()
+    }
+    if (time.getMinutes < 10) {
+        menit = '0' + time.getMinutes()
+    }
+
+    clock.innerHTML = `${time.getHours()} : ${menit} : ${detik}`
 }
 setInterval(waktu,1000)
 // Home Clock end
