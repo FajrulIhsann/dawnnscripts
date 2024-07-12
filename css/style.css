@@ -264,37 +264,6 @@ body {
     position: absolute;
   }
 
-  @media only screen and (min-width:100px) and (max-width:600px){
-
-    body {
-      max-width: 100vh;
-    }
-
-    .second-content{
-      flex-direction: column;
-      height: 150vh;
-    }
-
-    .preview-desc{
-      font-size: 1.3rem;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    
-    .home-content {
-      text-align: center;
-      font-size: 70%;
-    }
-    
-    .home-title {
-      margin-bottom: 9rem ;
-    }
-
-    .container {
-      padding-left: 6vh;
-    }
-  }
     /* Animations for fading in and out */
     @-webkit-keyframes fadein {
       from {top: 0; opacity: 0;}

@@ -1,0 +1,74 @@
+:root {
+    --bgColor-primary : #111111;
+    --bgColor-secondary: #4d4d4d;
+    --bgColor-tertiary : #1e1e1e;
+    --text-primary: #fff;
+    --text-secondary: #000000;
+  }
+
+  .about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+    border: 1px white solid;
+    color: var(--text-primary);
+    padding: 5rem;
+  }
+
+  .about-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    height: 600px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: var(--bgColor-tertiary);
+  }
+
+  .about-img {
+    width: 80%;
+    height: 80%;
+    background-image: url(https://placehold.co/400x500.png);
+    border: 1px white solid;
+  }
+
+  .about-desc-container{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    padding: 4rem;
+    height: 600px;
+    background-color: var(--bgColor-tertiary);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .desc-title {
+    flex: 1;
+    font-size: 3em;
+    font-weight: bold;
+  }
+
+  .desc-desc {
+    flex: 2;
+    font-size: 1.5rem;
+ 
+  }
+
+  .desc-socmed {
+    display: flex;
+    padding: 2rem;
+    width: fit-content;
+    align-items: center;
+    font-size: 2em;
+    background-color: var(--bgColor-secondary);
+    border-radius: 10px;
+  }
+
+  .desc-socmed i {
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+  }
