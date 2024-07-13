@@ -19,16 +19,26 @@ body {
   width: 100%;
   background: none;
   height: 7%;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .header-brand {
   display: flex;
-  width: 100%;
   color: var(--text-primary);
   align-items: center;
   padding-left: 1rem;
   padding-top: 1rem;
+  font-family: "Quicksand",sans-serif;
+  text-decoration: none;
+  margin-right: 10rem;
+}
+
+.header-link {
+  display: flex;
+  text-decoration: none;
+  display: flex;
+  color: var(--text-primary);
+  align-items: center;
   font-family: "Quicksand",sans-serif;
   text-decoration: none;
 }
@@ -122,6 +132,28 @@ body {
   width: 180px;
   height: 100px;
   box-shadow: rgba(133, 133, 133, 0.35) 0px 5px 15px;
+}
+
+.preview-btn-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.preview-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bgColor-tertiary);
+  border: none;
+  color: var(--text-primary);
+  width: 30%;
+  height: 50%;
+  border-radius: 8px;
+  font-size: 1.4em;
+  font-family: "Red Hat Display", sans-serif;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .preview-desc {

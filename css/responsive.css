@@ -30,7 +30,8 @@
     }
 
     .about-container {
-       display: none;
+       flex-direction: column;
+       height: 300vh;
     }
     
   }
