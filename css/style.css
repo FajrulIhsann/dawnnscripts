@@ -98,7 +98,8 @@ body {
 .second-content {
   display: flex;
   width: 100%;
-  height: 55vh;
+  height: 90vh;
+  max-height: 200vh;
   background-color: var(--bgColor-primary);
 }
 
@@ -147,8 +148,8 @@ body {
   background-color: var(--bgColor-tertiary);
   border: none;
   color: var(--text-primary);
-  width: 30%;
-  height: 50%;
+  width: 13rem;
+  height: 3rem;
   border-radius: 8px;
   font-size: 1.4em;
   font-family: "Red Hat Display", sans-serif;
